@@ -1,0 +1,22 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "Documentation Think Solar suite",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs --port 8090",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs --port 8090",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-stackrats:Think-Solar/docs.git"
+  },
+  "author": "Stackrats",
+  "license": "ISC",
+  "dependencies": {
+    "vitepress": "^1.0.0-alpha.36",
+    "vue": "^3.2.45"
+  }
+}
