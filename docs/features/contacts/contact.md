@@ -14,7 +14,7 @@ This will display the contacts details.
 - Role
 - Email
 - Phone number
-- address
+- Address
 
 ### Sub menus
 

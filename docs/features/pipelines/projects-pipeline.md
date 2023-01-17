@@ -23,7 +23,7 @@ The projects in the overview can be in various states and are highlighted to rel
     - A new build
  - Red
     - Is in the [Post installation](#post-installation) stage
-    - Checkbox for **"I confirm that there are no remaining installation issues"** is checked.
+    - Checkbox for **"I confirm that there are no remaining installation issues"** is checked
 
 ### Overview
 
