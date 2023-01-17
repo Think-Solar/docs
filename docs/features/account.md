@@ -25,6 +25,6 @@ Users can edit various account details based on their assigned [Role](/features/
 ### Admin only displayed details
 
  - Labour details
-  - Labour cost price
-  - Labour sell price
+    - Labour cost price
+    - Labour sell price
 

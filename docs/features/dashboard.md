@@ -7,7 +7,7 @@ layout: doc
 This will be the inital route displayed after a user has successfully logged in.
 
 ::: info
-This may not always be the case because the applications last route is stored to the browsers local storage when logging out, this makes it easier to pick up from where the user left off.
+This may not always be the case because the applications last route is stored in the browsers local storage when logging out, this makes it easier to pick up from where the user left off.
 
 ::: details View snippet
 ```js

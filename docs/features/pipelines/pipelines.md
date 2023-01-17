@@ -4,7 +4,7 @@ layout: doc
 
 # Pipelines
 
-After collecting leads from various sources outside of the application, users can create a lead and which will then be visible on the pipeline.
+After collecting leads from various sources outside of the application, users can create a lead which will then be visible on the pipeline.
 
 Because the sales lead and potential future project is tracked throughout the sales process and also the project management process, we have divided these stages in to their own respective pipelines. 
 
