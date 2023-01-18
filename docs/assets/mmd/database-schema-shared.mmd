@@ -1,0 +1,291 @@
+erDiagram
+
+   suppliers {
+        char id PK
+        varchar name 
+        timestamp created_at 
+        timestamp updated_at 
+    }
+
+    task_categories {
+        char id PK
+        char parent_id 
+        varchar name 
+        timestamp created_at 
+        timestamp updated_at 
+    }
+
+    phase_types {
+        char id PK
+        varchar name 
+        int order 
+        timestamp created_at 
+        timestamp updated_at 
+    }
+
+    sales_pipeline_products {
+        char id PK
+        varchar name 
+        int order 
+        timestamp created_at 
+        timestamp updated_at 
+    }
+
+    form_coc_reference_standard_list {
+        char id PK
+        varchar name 
+        varchar display_name 
+        varchar description 
+        int order 
+        timestamp created_at 
+        timestamp updated_at 
+    }
+
+    difficulty_types {
+        char id PK
+        varchar name 
+        int order 
+        timestamp created_at 
+        timestamp updated_at 
+    }
+
+    addresses {
+        char id PK
+        char created_by_id FK
+        varchar street 
+        varchar city 
+        varchar state 
+        varchar country_iso 
+        varchar postal_code 
+        double lat 
+        double lng 
+        timestamp created_at 
+        timestamp updated_at 
+    }
+
+    form_coc_compliance_checkbox_list {
+        char id PK
+        varchar name 
+        varchar description 
+        int order 
+        timestamp created_at 
+        timestamp updated_at 
+    }
+
+    form_coc_grid_type_list {
+        char id PK
+        varchar name 
+        varchar display_name 
+        int order 
+        timestamp created_at 
+        timestamp updated_at 
+    }
+
+    form_coc_work_risk_list {
+        char id PK
+        varchar name 
+        varchar display_name 
+        int order 
+        timestamp created_at 
+        timestamp updated_at 
+    }
+
+    sales_pipeline_item_closed_categories {
+        char id PK
+        char parent_id 
+        varchar name 
+        int order 
+        timestamp created_at 
+        timestamp updated_at 
+    }
+
+    water_heaters {
+        char id PK
+        varchar name 
+        int order 
+        timestamp created_at 
+        timestamp updated_at 
+    }
+
+    networks {
+        char id PK
+        varchar name 
+        timestamp created_at 
+        timestamp updated_at 
+    }
+
+    roof_types {
+        char id PK
+        varchar name 
+        int order 
+        timestamp created_at 
+        timestamp updated_at 
+    }
+
+    shading_types {
+        char id PK
+        varchar name 
+        int order 
+        timestamp created_at 
+        timestamp updated_at 
+    }
+
+    personal_access_tokens {
+        bigint id PK
+        varchar tokenable_type 
+        bigint tokenable_id 
+        varchar name 
+        varchar token 
+        text abilities 
+        timestamp last_used_at 
+        timestamp created_at 
+        timestamp updated_at 
+    }
+
+    form_coc_system_check_checkbox_list {
+        char id PK
+        varchar name 
+        varchar display_name 
+        int order 
+        timestamp created_at 
+        timestamp updated_at 
+    }
+    storey_types {
+        char id PK
+        varchar name 
+        int order 
+        timestamp created_at 
+        timestamp updated_at 
+    }
+
+    notifications {
+        char id PK
+        varchar type 
+        varchar notifiable_type 
+        char notifiable_id 
+        text data 
+        timestamp read_at 
+        timestamp created_at 
+        timestamp updated_at 
+    }
+
+    form_coc_work_type_list {
+        char id PK
+        varchar name 
+        int order 
+        timestamp created_at 
+        timestamp updated_at 
+    }
+
+    sales_pipeline_sources {
+        char id PK
+        char parent_id 
+        varchar name 
+        int order 
+        timestamp created_at 
+        timestamp updated_at 
+    }
+
+    form_coc_type_list {
+        char id PK
+        varchar name 
+        varchar display_name 
+        int order 
+        timestamp created_at 
+        timestamp updated_at 
+    }
+
+    projects_pipeline_item_categories {
+        char id PK
+        varchar name 
+        varchar display_name 
+        varchar description 
+        timestamp created_at 
+        timestamp updated_at 
+    }
+
+    compass_point_types {
+        char id PK
+        varchar name 
+        int order 
+        timestamp created_at 
+        timestamp updated_at 
+    }
+
+    orientation_types {
+        char id PK
+        varchar name 
+        int order 
+        timestamp created_at 
+        timestamp updated_at 
+    }
+
+    timesheet_types {
+        char id PK
+        varchar name 
+        int order 
+        timestamp created_at 
+        timestamp updated_at 
+    }
+
+    media_categories {
+        char id PK
+        varchar name 
+        varchar display_name 
+        varchar description 
+        timestamp created_at 
+        timestamp updated_at 
+    }
+
+    retailers {
+        char id PK
+        varchar name 
+        timestamp created_at 
+        timestamp updated_at 
+    }
+
+    handover_type_list {
+        char id PK
+        varchar name 
+        varchar display_name 
+        int order 
+        timestamp created_at 
+        timestamp updated_at 
+    }
+
+    maintenance_procedure_list {
+        char id PK
+        varchar name 
+        varchar display_name 
+        text shutdown_description 
+        text shutdown_steps 
+        varchar shutdown_warning 
+        text startup_description 
+        text startup_steps 
+        varchar startup_warning 
+        timestamp created_at 
+        timestamp updated_at 
+    }
+
+    rag_status_types {
+        char id PK
+        varchar name 
+        varchar description 
+        int order 
+        timestamp created_at 
+        timestamp updated_at 
+    }
+
+    migrations {
+        int id PK
+        varchar migration 
+        int batch 
+    }
+
+    roof_bracket_types {
+        char id PK
+        varchar name 
+        int order 
+        timestamp created_at 
+        timestamp updated_at 
+    }
