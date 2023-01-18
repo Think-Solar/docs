@@ -21,7 +21,7 @@ graph TD
 
 ## Explanation
 
-This flowchart shows the basic flow of the API. The API starts with the request, which goes through authentication, validation, it is passed to the controller and then to an action.
+This flowchart shows the basic flow of the API. The API starts with the request, which calls goes through authentication, it is passed to the controller, data is validated and then passed to an action to perform any CRUD operations.
 
 - At first, an API route is called and the request is received by the API, protected routes will go through the authentication process where it checks the recieved cookie to make sure that the request is coming from an authenticated user.
 - The request is passed to the controller where the method that was bound to the route is called.
