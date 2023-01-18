@@ -18,6 +18,10 @@ Documentation for Think Solar suite
 
     https://think-solar.github.io/docs
 
+### Mermaid for creating markdown diagrams
+
+    https://mermaid.js.org/intro/
+
 ## Database
 
 Database diagrams are built with mermaid using their ERD diagrams, this tool will create ERD diagrams from existing tables.
