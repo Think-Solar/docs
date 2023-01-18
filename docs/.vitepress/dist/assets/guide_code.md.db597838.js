@@ -1,7 +1,0 @@
-import{_ as a}from"./chunks/guide-database-schema.2a0179d8.js";import{e as t,f as i,o,c as r,d}from"./app.a31cab7b.js";const n=()=>{console.log("initMermaid"),t(()=>import("./chunks/mermaid.esm.min.bc08675d.js"),[]).then(e=>{console.log("initialized"),e.default.initialize()})},s=d(`<h1 id="code" tabindex="-1">Code <a class="header-anchor" href="#code" aria-hidden="true">#</a></h1><p>Guidelines to follow when working on the codebase.</p><h1 id="flow" tabindex="-1">Flow <a class="header-anchor" href="#flow" aria-hidden="true">#</a></h1><pre class="mermaid">graph TD
-    A[Christmas] --&gt;|Get money| B(Go shopping)
-    B --&gt; C{Let me think}
-    C --&gt;|One| D[Laptop]
-    C --&gt;|Two| E[iPhone]
-    C --&gt;|Three| F[fa:fa-car Car]
-</pre><h2 id="routes" tabindex="-1">Routes <a class="header-anchor" href="#routes" aria-hidden="true">#</a></h2><ul><li></li></ul><h3 id="diagram" tabindex="-1">Diagram <a class="header-anchor" href="#diagram" aria-hidden="true">#</a></h3><p><img src="`+a+'" alt="Database schema"></p>',8),l=[s],p=JSON.parse('{"title":"Code","description":"","frontmatter":{"layout":"doc"},"headers":[{"level":2,"title":"Routes","slug":"routes","link":"#routes","children":[{"level":3,"title":"Diagram","slug":"diagram","link":"#diagram","children":[]}]}],"relativePath":"guide/code.md","lastUpdated":null}'),c={name:"guide/code.md"},g=Object.assign(c,{setup(e){return i(async()=>{n()}),(h,_)=>(o(),r("div",null,l))}});export{p as __pageData,g as default};
