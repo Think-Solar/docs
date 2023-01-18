@@ -4,7 +4,7 @@ layout: doc
 
 # Database
 
-An overview of the database schema - WIP
+An overview of the database schema
 
 ## Schema
 

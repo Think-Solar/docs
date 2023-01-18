@@ -6,7 +6,7 @@ layout: doc
 
 Guidelines to follow when working on the codebase.
 
-# Flow
+## Flow
 
 <pre class="mermaid">
 graph TD
