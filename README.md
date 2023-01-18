@@ -2,14 +2,24 @@
 
 Documentation for Think Solar suite
 
-### Reference for markdown options
+### Documentation for Vitepress
 
-https://vitepress.vuejs.org/guide/markdown
+    https://vitepress.vuejs.org
 
 ### Serve docs locally
 
-npm run docs:dev
+    npm run docs:dev
+
+### Build docs for prod
+
+    npm run docs:build
 
 ### Live site
 
-https://think-solar.github.io/docs
+    https://think-solar.github.io/docs
+
+## Database
+
+Database diagrams are built with mermaid using their ERD diagrams, this tool will create ERD diagrams from existing tables.
+
+    https://github.com/KarnerTh/mermerd
