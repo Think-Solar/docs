@@ -30,6 +30,7 @@ const config = {
         items: [
           { text: "Introduction", link: "/" },
           { text: "Database", link: "/guide/database" },
+          { text: "Code", link: "/guide/code" },
         ],
       },
       {
@@ -82,6 +83,19 @@ const config = {
       copyright: "Copyright © 2022-present Think Solar",
     },
   },
+  ssr: {
+    noExternal: ["@mermaid/dist/mermaid.esm.mjs"],
+  },
 };
+
+// const configWithMermaid = withMermaid(config);
+
+// const configWithMermaid = defineConfig({
+//   resolve: {
+//     alias: {
+//       mermaid: "mermaid/dist/mermaid.esm.mjs",
+//     },
+//   },
+// });
 
 export default config;
