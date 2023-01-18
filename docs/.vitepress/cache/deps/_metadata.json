@@ -1,19 +1,29 @@
 {
   "hash": "b515fe27",
-  "browserHash": "34160747",
+  "browserHash": "8f094a59",
   "optimized": {
     "vue": {
       "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "b3737625",
+      "fileHash": "ac7fa163",
       "needsInterop": false
     },
     "mermaid/dist/mermaid.esm.min.mjs": {
       "src": "../../../../node_modules/mermaid/dist/mermaid.esm.min.mjs",
       "file": "mermaid_dist_mermaid__esm__min__mjs.js",
-      "fileHash": "966dbf3d",
+      "fileHash": "3a29834a",
       "needsInterop": false
+    },
+    "mermaid/dist/mermaid": {
+      "src": "../../../../node_modules/mermaid/dist/mermaid.js",
+      "file": "mermaid_dist_mermaid.js",
+      "fileHash": "76a69259",
+      "needsInterop": true
     }
   },
-  "chunks": {}
+  "chunks": {
+    "chunk-RSJERJUL": {
+      "file": "chunk-RSJERJUL.js"
+    }
+  }
 }
