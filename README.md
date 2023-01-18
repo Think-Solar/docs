@@ -22,6 +22,8 @@ Documentation for Think Solar suite
 
     https://mermaid.js.org/intro/
 
+    https://mermaid.live/
+
 ## Database
 
 Database diagrams are built with mermaid using their ERD diagrams, this tool will create ERD diagrams from existing tables.
