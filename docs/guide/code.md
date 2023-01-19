@@ -9,14 +9,7 @@ Guidelines to follow when working on the codebase.
 ## Flow
 
 <pre class="mermaid">
-graph TD
-  request[Browser request] --> api[Laravel API]
-  api -->|Call requested route| authenticate[Authenticate]
-  authenticate -->|Check cookies| controller[Controller]
-  controller -->|Call route CRUD method| validate[Validate]
-  validate -->|Validate input| action[Action]
-  action -->|Handle CRUD logic| database[Database]
-  database -->|Return JSON resource| response[Response]
+  {{ codeFlowDiagram }}
 </pre>
 
 ## Explanation
@@ -117,6 +110,8 @@ This flowchart shows the basic flow of the API. The API starts with the request,
 <script setup>
 import { onMounted, ref } from 'vue'
 import { initMermaid } from '../composables/useMermaid.ts'
+
+import codeFlowDiagram from '/assets/mmd/code-flow.mmd?raw'
 
 onMounted(async () => {
   initMermaid()

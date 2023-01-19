@@ -1,0 +1,8 @@
+graph TD
+  request[Browser request] --> api[Laravel API]
+  api -->|Call requested route| authenticate[Authenticate]
+  authenticate -->|Check cookies| controller[Controller]
+  controller -->|Call route CRUD method| validate[Validate]
+  validate -->|Validate input| action[Action]
+  action -->|Handle CRUD logic| database[Database]
+  database -->|Return JSON resource| response[Response]
