@@ -1,5 +1,3 @@
-import "./chunk-RSJERJUL.js";
-
 // node_modules/mermaid/dist/mermaid.esm.min.mjs
 var Mb = Object.defineProperty;
 var Nb = (t10, e, r) => e in t10 ? Mb(t10, e, { enumerable: true, configurable: true, writable: true, value: r }) : t10[e] = r;

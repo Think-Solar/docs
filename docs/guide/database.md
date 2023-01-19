@@ -4,30 +4,30 @@ layout: doc
 
 # Database
 
-An overview of the database schema
+An overview of the database tables and relationships
 
 ## Schema
+
+### Tables
 
  - pipeline
  - pipeline_item
  - sales_pipeline_item
  - projects_pipeline_item
 
-### Schema diagram
+### Relational diagram
 
-<div class="w-full overflow-x-auto">
-<pre class="mermaid w-auto">
-    {{ assetAsString }}
+<pre class="mermaid zoomable w-full overflow-hidden max-h-800px">
+    {{ databaseDiagram }}
 </pre>
-</div>
 
 <script setup>
 import { onMounted, ref } from 'vue'
 import { initMermaid } from '../composables/useMermaid.ts'
 
-import assetAsString from '/assets/mmd/database-schema-part.mmd?raw'
+import databaseDiagram from '/assets/mmd/database-schema-full.mmd?raw'
 
 onMounted(async () => {
-  initMermaid()
+  initMermaid({ x: -4300, y: 0, k: 0.6 })
 });
 </script>

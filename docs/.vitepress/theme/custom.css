@@ -18,6 +18,10 @@
   width: 100%;
 }
 
+.h-full {
+  height: 100%;
+}
+
 .w-auto {
   width: auto;
 }
@@ -32,4 +36,12 @@
 
 .overflow-hidden {
   overflow: hidden;
+}
+
+.min-h-400px {
+  min-height: 400px;
+}
+
+.max-h-800px {
+  max-height: 800px;
 }
