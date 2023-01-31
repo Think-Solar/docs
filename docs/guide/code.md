@@ -108,10 +108,10 @@ This flowchart shows the basic flow of the API. The API starts with the request,
   The response should always JSON format returning either a `JsonResource` or `ResourceCollection`.
 
 <script setup>
-import { onMounted, ref } from 'vue'
-import { initMermaid } from '../composables/useMermaid.ts'
+import { onMounted, ref } from 'vue';
+import { initMermaid } from '../composables/useMermaid.ts';
 
-import codeFlowDiagram from '/assets/mmd/code-flow.mmd?raw'
+import codeFlowDiagram from '/assets/mmd/code-flow.mmd?raw';
 
 onMounted(async () => {
   initMermaid()

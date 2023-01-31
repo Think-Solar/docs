@@ -74,6 +74,95 @@ const config = {
           },
         ],
       },
+      {
+        text: 'Backend',
+        items: [
+          {
+            text: 'Getting Started',
+            link: '/backend/getting-started',
+            items: [
+              {
+                text: 'Cloning the project',
+                link: '/backend/getting-started#cloning-the-project',
+              },
+              {
+                text: 'Laravel Sail & Docker',
+                link: '/backend/getting-started#laravel-sail-docker',
+              },
+              {
+                text: 'Database setup',
+                link: '/backend/getting-started#database-setup',
+              },
+              {
+                text: 'Local hostnames',
+                link: '/backend/getting-started#local-hostnames',
+              }
+            ]
+          },
+          {
+            text: 'Code Guidelines',
+            link: '/backend/code-guidelines',
+            items: [
+              {
+                text: 'Request Lifecycle',
+              }
+            ]
+          },
+          {
+            text: 'Testing',
+          },
+          {
+            text: 'Deployment',
+            link: '/backend/deployment',
+            items: [
+              {
+                text: 'Git workflow',
+                link: '/backend/deployment#git-workflow',
+              },
+              {
+                text: 'Pull requests',
+                link: '/backend/deployment#pull-requests',
+              },
+              {
+                text: 'CI/CD Pipeline',
+                link: '/backend/deployment#ci-cd-pipeline',
+              },
+              {
+                text: 'Laravel Forge',
+                link: '/backend/deployment#laravel-forge',
+              }
+            ]
+          },
+          {
+            text: 'Common Issues',
+          }
+        ]
+      },
+      {
+        text: 'Frontend',
+        items: [
+          {
+            text: 'Level 3',
+          },
+          {
+            text: 'Level 3',
+          }
+        ]
+      },
+      {
+        text: 'DevOps',
+        items: [
+          {
+            text: 'DNS',
+          },
+          {
+            text: 'Server Management',
+          },
+          {
+            text: 'Disaster Recovery',
+          }
+        ]
+      }
     ],
     socialLinks: [
       { icon: "github", link: "https://github.com/think-solar" },
