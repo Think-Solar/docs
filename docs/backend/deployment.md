@@ -22,7 +22,7 @@ Running tests outside the container (eg. `php artisan test`) may result in error
 
 This command runs all the tests. All tests should pass before moving to the next step.
 
-See the [Testing](/backend/testing) page for more information on testing.
+**ADD LINK HERE** See the testing page for more information on testing.
 
 ## Pull requests
 

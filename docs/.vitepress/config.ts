@@ -169,7 +169,7 @@ const config = {
       { icon: "facebook", link: "https://facebook.com/wanakasolar" },
     ],
     footer: {
-      copyright: "Copyright © 2022-present Think Solar",
+      copyright: "Copyright © 2022-present Think Solar"
     },
   },
   ssr: {
