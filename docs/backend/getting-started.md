@@ -19,6 +19,21 @@ Contact software@thinksolar.co.nz for details.
 
 Once you have cloned the project, navigate to the project root and run `composer install` to install all the necessary dependencies.
 
+::: warning
+When setting up for the first time, its possible none of the application's Composer dependencies, including Sail, will be installed after you clone the application's repository to your local computer.
+
+You may install the application's dependencies by navigating to the application's directory and executing the following command. This command uses a small Docker container containing PHP and Composer to install the application's dependencies:
+
+```
+docker run --rm \
+-u "$(id -u):$(id -g)" \
+-v "$(pwd):/var/www/html" \
+-w /var/www/html \
+laravelsail/php82-composer:latest \
+composer install --ignore-platform-reqs
+```
+:::
+
 ## Laravel Sail & Docker
 
 We're using Laravel Sail & Docker to package the app, its dependencies and its configuration into a single container. This makes it easy to run and deploy the app on any machine that has Docker installed, and ensures that it will run consistently across different environments; this eliminates the "works on my machine" problem.
