@@ -1,0 +1,84 @@
+---
+layout: doc
+---
+
+# Project Brief: Vue 3 Calendar App
+
+## Objective:
+
+Create a Calendar app using Vue 3 with the composition API, script setup, TypeScript, and Tailwind CSS. The calendar will display events defined as 'projects' and 'tasks', fetched from an API, across the days of the month. It will provide two views – a standard month calendar view and a user-based weekly view. Events should be draggable and droppable, allowing date adjustments. The calendar should also include filters for completed tasks/projects and for different users. Completed events should, by default, have reduced opacity. Each event should display a title and, for tasks, an optional due time.
+
+## Functionality:
+
+### General:
+
+1. The calendar will occupy the full width and height of the parent div and display events in a grid layout.
+2. Events will be stacked items and can extend over multiple days if required.
+3. The calendar should be vertically scrollable, progressively loading and showcasing future months and their events as the user scrolls.
+
+### Event Loading:
+
+1. The calendar will initially show the current month and load events for the displayed dates from an API.
+2. The calendar should dynamically load as the user scrolls down, presenting events for the visible dates.
+
+### Event Types and Details:
+
+1. Events are categorized into 'Projects' and 'Tasks'.
+2. Project events can span multiple non-consecutive dates but will maintain the same project ID across different days. The title of the project events will come from the project name.
+3. Task events can have an optional category, which will determine the color of the event. The title for tasks will come from the task name and optionally display a due time if set during the task creation or editing.
+
+### Event Styling:
+
+1. Events will be assigned colors based on their category using Tailwind CSS.
+2. The default HEX color for tasks is `#00a1ff`.
+3. The tailwind config classes for events are:
+
+    ```javascript
+    event: {
+      task: '#00a1ff',
+      'task-site-visit': '#8a00ff',
+      'task-meter-inspection': '#244ead',
+      project: '#8b8b8b',
+      'task-design': '#993395',
+      'task-proposal': '#d851cd',
+    },
+    ```
+4. Completed events should have reduced opacity by default, indicating their completion status visually.
+
+### Event Interaction:
+
+1. Clicking an event will emit an event that allows interaction, such as routing to another view for editing event details or viewing project information.
+2. Events should be draggable and droppable, enabling users to alter the dates of the events by dragging and dropping them onto different dates.
+
+### Event Filters:
+
+1. The calendar should include filters for showing completed tasks and projects.
+2. There should also be filters to view tasks and projects assigned to specific users.
+
+### Calendar Views:
+
+1. **Standard Month Calendar View**: This is the default view with days of the week on the x-axis and events displayed for each day of the month.
+2. **User-based Weekly View**: This view will have days of the week on the x-axis and users with assigned events on the y-axis. User-specific events will span across the week in their row. Horizontal scrolling will reveal subsequent weeks and load the events visible in the view.
+
+## Technical Requirements:
+
+1. Vue 3 (with Composition API and Script Setup)
+2. TypeScript
+3. Tailwind CSS
+4. API integration for event data fetch (Mock implementation for now)
+5. Drag and Drop functionality
+6. Event filtering capability
+7. Opacity control for completed events
+8. Displaying event details including title and optional due time
+
+This project requires a robust understanding of Vue.js, TypeScript, and CSS styling with Tailwind. Implementing drag and drop functionality, filter functionality. The final application should be thoroughly tested and free of errors.
+
+## Example sources:
+
+### Month view
+
+![Simple calendar](/assets/images/briefs/simple-calendar.png)
+
+### User view
+
+![Simple calendar](/assets/images/briefs/user-view-calendar.jpeg)

@@ -75,101 +75,110 @@ const config = {
         ],
       },
       {
-        text: 'Backend',
+        text: "Backend",
         items: [
           {
-            text: 'Getting Started',
-            link: '/backend/getting-started',
+            text: "Getting Started",
+            link: "/backend/getting-started",
             items: [
               {
-                text: 'Cloning the project',
-                link: '/backend/getting-started#cloning-the-project',
+                text: "Cloning the project",
+                link: "/backend/getting-started#cloning-the-project",
               },
               {
-                text: 'Laravel Sail & Docker',
-                link: '/backend/getting-started#laravel-sail-docker',
+                text: "Laravel Sail & Docker",
+                link: "/backend/getting-started#laravel-sail-docker",
               },
               {
-                text: 'Database setup',
-                link: '/backend/getting-started#database-setup',
+                text: "Database setup",
+                link: "/backend/getting-started#database-setup",
               },
               {
-                text: 'Local hostnames',
-                link: '/backend/getting-started#local-hostnames',
-              }
-            ]
+                text: "Local hostnames",
+                link: "/backend/getting-started#local-hostnames",
+              },
+            ],
           },
           {
-            text: 'Code Guidelines',
-            link: '/backend/code-guidelines',
+            text: "Code Guidelines",
+            link: "/backend/code-guidelines",
             items: [
               {
-                text: 'Request Lifecycle',
-              }
-            ]
+                text: "Request Lifecycle",
+              },
+            ],
           },
           {
-            text: 'Testing',
+            text: "Testing",
           },
           {
-            text: 'Deployment',
-            link: '/backend/deployment',
+            text: "Deployment",
+            link: "/backend/deployment",
             items: [
               {
-                text: 'Git workflow',
-                link: '/backend/deployment#git-workflow',
+                text: "Git workflow",
+                link: "/backend/deployment#git-workflow",
               },
               {
-                text: 'Pull requests',
-                link: '/backend/deployment#pull-requests',
+                text: "Pull requests",
+                link: "/backend/deployment#pull-requests",
               },
               {
-                text: 'CI/CD Pipeline',
-                link: '/backend/deployment#ci-cd-pipeline',
+                text: "CI/CD Pipeline",
+                link: "/backend/deployment#ci-cd-pipeline",
               },
               {
-                text: 'Laravel Forge',
-                link: '/backend/deployment#laravel-forge',
-              }
-            ]
+                text: "Laravel Forge",
+                link: "/backend/deployment#laravel-forge",
+              },
+            ],
           },
           {
-            text: 'Common Issues',
-          }
-        ]
+            text: "Common Issues",
+          },
+        ],
       },
       {
-        text: 'Frontend',
+        text: "Frontend",
         items: [
           {
-            text: 'Level 3',
+            text: "Level 3",
           },
           {
-            text: 'Level 3',
-          }
-        ]
+            text: "Level 3",
+          },
+        ],
       },
       {
-        text: 'DevOps',
+        text: "DevOps",
         items: [
           {
-            text: 'DNS',
+            text: "DNS",
           },
           {
-            text: 'Server Management',
+            text: "Server Management",
           },
           {
-            text: 'Disaster Recovery',
-          }
-        ]
-      }
+            text: "Disaster Recovery",
+          },
+        ],
+      },
+      {
+        text: "Briefs",
+        items: [
+          {
+            text: "Calendar",
+            link: "/briefs/calendar",
+          },
+        ],
+      },
     ],
     socialLinks: [
       { icon: "github", link: "https://github.com/think-solar" },
       { icon: "facebook", link: "https://facebook.com/wanakasolar" },
     ],
     footer: {
-      copyright: "Copyright © 2022-present Think Solar"
+      copyright: "Copyright © 2022-present Think Solar",
     },
   },
   ssr: {
