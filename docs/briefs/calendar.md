@@ -31,7 +31,7 @@ Develop a Calendar app using Vue 3, integrating the composition API, script setu
 
 1. Calendar events are classified into 'Projects', 'Tasks', and 'Events'. Calendar events will be assigned colors based on being either an event with category, task with category or project install status using Tailwind CSS.
 2. The default color for tasks is `#00a1ff`.
-3. The default color for projects is `#8b8b8b`
+3. The default color for projects is `#8b8b8b`.
 4. The tailwind config classes for events are:
 
     ```javascript
